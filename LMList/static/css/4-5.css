@@ -1,0 +1,120 @@
+ body, div, form, input, select, textarea, label { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: 'Scope One', serif;
+      font-size: 17px;
+      color: rgb(14, 12, 12);
+      line-height: 22px;
+      background-color: rgb(50, 134, 202);
+      }
+      html, body {
+      min-height: 100%;
+      }
+    
+      legend {
+      padding: 10px;      
+      font-family: 'Rasa', serif;
+      font-size: 25px;
+      color: #fff;
+      background-color: #020720;
+      }
+  
+      .testbox {
+      padding: 20px;
+      }
+    
+      input, select, textarea {
+      margin-bottom: 10px;
+      border: 1px solid rgb(2, 22, 75);
+      border-radius: 3px;
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+    
+    
+      .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+      color:  #002966;
+      }
+      .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+      }
+      .item input:hover, .item select:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 3px 0  #006622;
+      color: #006622;
+      }
+   
+      .item input:hover, .item select:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 3px 0  #006622;
+      color: #006622;
+      }
+      .item {
+      position: relative;
+      margin: 10px 0;
+      }
+    
+    
+      .colums {
+      display:flex;
+      justify-content:space-between;
+      flex-direction:row;
+      flex-wrap:wrap;
+      }
+      .colums div {
+      width:48%;
+      }
+    
+     
+
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background:  #1a55a1;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      margin-top: 10px;
+      font-family: 'Space Mono', monospace;
+      }
+      button:hover {
+      background:  #0692e8;
+      }
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+} 
+ .item input:hover, .item select:hover, .item textarea:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 3px 0  #006622;
+  color: #006622;
+      } 

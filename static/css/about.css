@@ -1,0 +1,62 @@
+body::after {
+  content: "";
+  background: url(/static/image/image5.jpg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: fixed;
+  
+}
+
+
+.about{
+font-size: 3vw;
+
+text-align: center;
+color: rgb(14, 12, 12);
+line-height: 45px;
+word-spacing: 6px;
+margin-top: 90px;
+
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
